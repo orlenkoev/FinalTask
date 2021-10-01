@@ -46,6 +46,11 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <systemProperties>
+                        <property>
+                            <name>browser</name>
+                        </property>
+                    </systemProperties>
                     <systemPropertyVariables>
                         <allure.results.directory>${project.build.directory}\allure-results</allure.results.directory>
                     </systemPropertyVariables>

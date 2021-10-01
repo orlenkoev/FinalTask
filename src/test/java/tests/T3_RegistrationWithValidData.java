@@ -13,7 +13,7 @@ public class T3_RegistrationWithValidData extends BaseTest {
         String lastName = faker.name().lastName();
         String userEMail = faker.internet().emailAddress();
         String password = faker.internet().password();
-        String birthdayDate = faker.date().birthday().toString();
+        String birthdayDate = "05/31/1970";
 
         MainPage mainPage = new MainPage();
         String expectedAccountName = firstName + " " + lastName;

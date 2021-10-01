@@ -4,7 +4,7 @@ import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.Test;
 import pages.MainPage;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import java.util.Locale;
 
 public class T1_CheckTextAboutMailing extends BaseTest {
 
@@ -18,10 +18,13 @@ public class T1_CheckTextAboutMailing extends BaseTest {
                 .getFooter()
                 .getTextNearTheEmailField();
 
-        String expectedTextUnderTheField = "You may unsubscribe at any moment. For that purpose, please find my contact info in the legal notice";
+        String expectedTextUnderTheField = "You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.";
         String actualTextUnderTheField = mainPage
                 .getFooter()
                 .getTextUnderTheEmailField();
+
+        String actualText = mainPage.getFooter().getTextFromSubscribeButton();
+        String expectedTextUpperCase = actualText.toUpperCase(Locale.ROOT);
 
         SoftAssertions sa = new SoftAssertions();
         sa.assertThat(actualTextNearTheField)
@@ -30,20 +33,11 @@ public class T1_CheckTextAboutMailing extends BaseTest {
         sa.assertThat(actualTextUnderTheField)
                 .as("Text about mailing under the mailing field is not as expected")
                 .isEqualTo(expectedTextUnderTheField);
-        sa.assertAll();
+        sa.assertThat(actualText)
+                .as("All characters on Subscribe button not in upper case")
+                .isEqualTo(expectedTextUpperCase);
     }
 
-
-    @Test
-    public boolean isTextUpperCase() {
-        MainPage mainPage = new MainPage();
-        String text = mainPage.getFooter().getTextFromSubscribeButton();
-        char[] charArray = text.toCharArray();
-        for (char c : charArray) {
-            if (!Character.isUpperCase(c))
-                return false;
-        }
-        return true;
-    }
 }
+
 

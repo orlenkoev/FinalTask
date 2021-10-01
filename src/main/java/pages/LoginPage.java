@@ -38,7 +38,7 @@ public class LoginPage extends BasePage {
     private WebElement fieldWithInvalidFormText;
 
     public LoginPage() {
-        PageFactory.initElements(getWebDriver(), this);
+        PageFactory.initElements(getDriver(), this);
     }
 
     public LoginPage chooseSocialTitle() {

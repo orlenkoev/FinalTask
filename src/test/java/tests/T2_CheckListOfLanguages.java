@@ -24,8 +24,8 @@ public class T2_CheckListOfLanguages extends BaseTest {
 
         SoftAssertions sa = new SoftAssertions();
         sa.assertThat(countOfLanguage)
-                .as("The count of language is not as espected")
-                .isEqualTo(44);
+                .as("The count of language is not as expected")
+                .isEqualTo(46);
         sa.assertThat(languageList)
                 .as("List doesn`t contain language " + expectedLanguage)
                 .contains(expectedLanguage);

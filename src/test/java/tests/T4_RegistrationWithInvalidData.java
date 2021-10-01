@@ -2,8 +2,14 @@ package tests;
 
 import com.github.javafaker.Faker;
 import org.assertj.core.api.SoftAssertions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.LoginPage;
 import pages.MainPage;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class T4_RegistrationWithInvalidData extends BaseTest {
 
@@ -14,12 +20,11 @@ public class T4_RegistrationWithInvalidData extends BaseTest {
         String lastName = faker.name().lastName();
         String userEMail = faker.internet().emailAddress();
         String password = faker.internet().password();
-        String birthdayDate = faker.date().birthday().toString();
+        String birthdayDate = "05/31/1970";
 
         MainPage mainPage = new MainPage();
 
-        String expectedDangerTextMessage = "Invalid format.";
-        String actualDangerTextMessage = mainPage
+        LoginPage loginPage = mainPage
                 .clickSignInButton()
                 .clickCreateNewAccountButton()
                 .chooseSocialTitle()
@@ -30,31 +35,21 @@ public class T4_RegistrationWithInvalidData extends BaseTest {
                 .enterBirthdayDate(birthdayDate)
                 .clickCustomerPrivacyButton()
                 .checkAgreeToThePrivacyPolicyAndTerms()
-                .clickSaveButtonWithIncorrectData()
-                .getTextFromInvalidForm();
+                .clickSaveButtonWithIncorrectData();
 
         String expectedColorOfField = "rgb(255, 76, 76)";
-        String actualColorOfField = mainPage
-                .clickSignInButton()
-                .clickCreateNewAccountButton()
-                .chooseSocialTitle()
-                .enterFirstName(firstName)
-                .enterLastName(lastName)
-                .enterUserEmail(userEMail)
-                .enterPassword(password)
-                .enterBirthdayDate(birthdayDate)
-                .clickCustomerPrivacyButton()
-                .checkAgreeToThePrivacyPolicyAndTerms()
-                .clickSaveButtonWithIncorrectData()
-                .getColorOfFirstNameField();
+        String actualColorOfField = loginPage.getColorOfFirstNameField();
+
+        String expectedDangerTextMessage = "Invalid format.";
+        String actualDangerTextMessage = loginPage.getTextFromInvalidForm();
 
         SoftAssertions sa = new SoftAssertions();
         sa.assertThat(actualDangerTextMessage)
-                .as("Danger Text when you input invalid data ia not as espected")
+                .as("Danger Text when you input invalid data is not as expected")
                 .isEqualTo(expectedDangerTextMessage);
 
         sa.assertThat(actualColorOfField)
-                .as("Color of Field when you input invalid data is not as espected")
+                .as("Color of Field when you input invalid data is not as expected")
                 .isEqualTo(expectedColorOfField);
         sa.assertAll();
     }

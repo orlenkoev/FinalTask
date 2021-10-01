@@ -50,3 +50,68 @@
 [INFO ] 2021-09-26 19:57:50 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
 [INFO ] 2021-09-26 20:08:24 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
 [INFO ] 2021-09-26 20:08:24 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 20:16:27 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 20:16:27 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 20:42:52 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 20:42:52 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 20:45:30 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 20:45:31 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 20:47:34 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 20:47:34 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 20:49:23 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 20:49:23 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 20:51:30 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 20:51:30 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 20:52:59 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 20:52:59 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 20:54:58 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 20:54:58 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 20:58:02 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 20:58:03 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 21:02:51 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 21:02:51 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 21:05:22 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 21:05:22 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 21:06:55 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 21:06:55 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 21:08:46 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 21:08:46 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-26 21:10:30 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-26 21:10:30 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-27 20:30:47 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-27 20:30:47 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-28 20:08:11 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-28 20:08:11 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-28 20:10:22 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-28 20:10:22 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-28 20:34:27 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-28 20:34:27 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-28 20:58:06 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-28 20:58:06 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-28 20:58:45 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-28 20:58:45 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-28 20:58:59 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-28 20:58:59 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-28 20:59:48 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-28 20:59:48 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-28 21:00:07 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[INFO ] 2021-09-28 21:00:07 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+[INFO ] 2021-09-29 17:52:04 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-09-29 17:52:04 WebDriverManager:1284 :logSeekRepo - message:Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+[INFO ] 2021-09-29 17:52:05 Downloader:127 :downloadAndExtract - message:Downloading https://chromedriver.storage.googleapis.com/94.0.4606.61/chromedriver_win32.zip
+[INFO ] 2021-09-29 17:52:08 Downloader:188 :extract - message:Extracting driver from compressed file chromedriver_win32.zip
+[INFO ] 2021-09-29 17:52:08 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-09-29 18:12:06 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-09-29 18:12:07 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-09-29 19:33:52 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-09-29 19:33:52 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-09-29 19:42:20 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-09-29 19:42:20 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-09-29 19:43:20 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-09-29 19:43:20 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-09-29 19:45:36 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-09-29 19:45:36 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-09-29 19:48:47 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-09-29 19:48:47 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-09-30 17:08:42 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-09-30 17:08:42 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe

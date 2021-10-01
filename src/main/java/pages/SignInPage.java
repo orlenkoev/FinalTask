@@ -1,6 +1,5 @@
 package pages;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import lombok.Getter;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,7 +12,7 @@ public class SignInPage extends BasePage {
     private WebElement createNewAccountButton;
 
     public SignInPage() {
-        PageFactory.initElements(getWebDriver(), this);
+        PageFactory.initElements(getDriver(), this);
     }
 
     public LoginPage clickCreateNewAccountButton() {

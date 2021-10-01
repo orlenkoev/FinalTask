@@ -4,7 +4,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
@@ -14,37 +15,45 @@ import pages.BasePage;
 import java.util.concurrent.TimeUnit;
 
 public abstract class BaseTest {
-    //    @BeforeMethod
-//    public void createDriver() {
-//        DriverFactory.init();
-//    }
-//
-//    @AfterMethod(alwaysRun = true)
-//    public void quite() {
-//        DriverFactory.getDriver().quit();
-//    }
-//}
+
     @BeforeMethod
-    public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("chrome.switches", "--disable-extensions");
-        WebDriver driver = new ChromeDriver(options);
+    public synchronized void setUp() {
+        String browser = System.getProperty("browser");
+        WebDriver driver;
+
+        if (browser == null) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+        } else {
+            switch (browser) {
+                case "firefox":
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+                case "safari":
+                    WebDriverManager.safaridriver().setup();
+                    driver = new SafariDriver();
+                    break;
+                default:
+                    throw new IllegalStateException("Wrong browser");
+            }
+        }
         driver.get("https://demo.prestashop.com/");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        BasePage.setThreadLocalDriver(driver);
 
-        BasePage.setWebDriver(driver);
         try {
             new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(By.id("loadingMessage")));
         } catch (Exception a) {
         }
+        driver.switchTo().frame("framelive");
     }
 
     @AfterMethod
     public void quit() {
-        if (BasePage.getWebDriver() != null) {
-            BasePage.getWebDriver().quit();
+        BasePage.getDriver().quit();
+        BasePage.getThreadLocalDriver().remove();
         }
     }
-}
+

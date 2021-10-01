@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import pages.PricesDropPage;
 
-import static pages.BasePage.getWebDriver;
 
 @Getter
 public class Footer {
@@ -18,6 +18,9 @@ public class Footer {
 
     @FindBy(xpath = "//input[@class='btn btn-primary float-xs-right hidden-xs-down']")
     private WebElement subscribeButton;
+
+    @FindBy(xpath = "//a[contains(@href, 'prices-drop')]")
+    private WebElement pricesDropButton;
 
     public Footer(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -33,6 +36,11 @@ public class Footer {
 
     public String getTextFromSubscribeButton() {
         return subscribeButton.getText();
+    }
+
+    public PricesDropPage clickOnPricesDropButton() {
+        pricesDropButton.click();
+        return new PricesDropPage();
     }
 }
 
