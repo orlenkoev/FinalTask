@@ -1,18 +1,14 @@
 package pages;
 
 import blocks.Footer;
+import blocks.Menu;
 import blocks.Product;
 import lombok.Getter;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import javax.swing.*;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static blocks.Product.getAllProductsOnPage;
 
@@ -20,6 +16,7 @@ import static blocks.Product.getAllProductsOnPage;
 @Getter
 public class MainPage extends BasePage {
     private Footer footer;
+    private Menu menu;
 
 
     @FindBy(xpath = "(//span[@class='hidden-sm-down'])[1]")
@@ -37,33 +34,10 @@ public class MainPage extends BasePage {
     @FindBy(xpath = "//div[@itemprop='itemListElement']")
     private List<WebElement> productContainer;
 
-    @FindBy(id = "category-3")
-    private WebElement clothes;
-
-    @FindBy(id = "category-6")
-    private WebElement accessories;
-
-    @FindBy(id = "category-9")
-    private WebElement art;
-
-    public List<Boolean> checkChildElements(WebElement parentElement, List<String> textOfChildElements) {
-        List<Boolean> results = new ArrayList<>();
-        Actions action = new Actions(getDriver());
-        action.moveToElement(parentElement).build().perform();
-        List<WebElement> childElem = parentElement.findElements(By.xpath(".//li/a"));
-        if(childElem.size() > 0) {
-            List<String> childText = parentElement.findElements(By.xpath(".//li/a"))
-                    .stream().map(e -> e.getText()).collect(Collectors.toList());
-            results.add(childText.equals(textOfChildElements));
-        }
-        results.add(childElem.size() == textOfChildElements.size());
-        return results;
-    }
-
-
     public MainPage() {
         PageFactory.initElements(getDriver(), this);
         this.footer = new Footer(getDriver());
+        this.menu = new Menu(getDriver());
     }
 
     public MainPage clickOnDropdownMenuWithLanguages() {
@@ -93,5 +67,5 @@ public class MainPage extends BasePage {
         List<Product> allProducts = getAllProductsOnPage(productContainer);
         return allProducts;
     }
-}
 
+}

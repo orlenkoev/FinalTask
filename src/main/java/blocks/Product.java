@@ -56,11 +56,4 @@ public class Product {
 
     }
 
-//    public double countExpectedPrice() {
-//        double priceAsDouble = getPriceAsDouble();
-//        double discountAsDouble = getDiscountAsDouble();
-//        double actualPrice = priceAsDouble - (priceAsDouble * discountAsDouble / 100);
-//        double expectedPrice = Double.parseDouble(String.valueOf(actualPrice);
-//        return expectedPrice;
-
 }

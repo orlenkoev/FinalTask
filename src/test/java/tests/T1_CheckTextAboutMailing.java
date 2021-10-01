@@ -10,7 +10,7 @@ public class T1_CheckTextAboutMailing extends BaseTest {
 
 
     @Test
-    public void checkThatTextNearMailFieldAsExpected() {
+    public void checkTextNearMailFieldAndUpperCaseLetterInSubscribeButton() {
         MainPage mainPage = new MainPage();
 
         String expectedTextNearTheField = "Get our latest news and special sales";
@@ -23,8 +23,8 @@ public class T1_CheckTextAboutMailing extends BaseTest {
                 .getFooter()
                 .getTextUnderTheEmailField();
 
-        String actualText = mainPage.getFooter().getTextFromSubscribeButton();
-        String expectedTextUpperCase = actualText.toUpperCase(Locale.ROOT);
+        String lettersFromSubscribeButton = mainPage.getFooter().getTextFromSubscribeButton();
+        String expectedLettersWithUpperCase = lettersFromSubscribeButton.toUpperCase(Locale.ROOT);
 
         SoftAssertions sa = new SoftAssertions();
         sa.assertThat(actualTextNearTheField)
@@ -33,9 +33,9 @@ public class T1_CheckTextAboutMailing extends BaseTest {
         sa.assertThat(actualTextUnderTheField)
                 .as("Text about mailing under the mailing field is not as expected")
                 .isEqualTo(expectedTextUnderTheField);
-        sa.assertThat(actualText)
+        sa.assertThat(lettersFromSubscribeButton)
                 .as("All characters on Subscribe button not in upper case")
-                .isEqualTo(expectedTextUpperCase);
+                .isEqualTo(expectedLettersWithUpperCase);
     }
 
 }

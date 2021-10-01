@@ -1,6 +1,7 @@
 package tests;
 
 import com.github.javafaker.Faker;
+import org.assertj.core.api.SoftAssertions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.MainPage;
@@ -12,16 +13,44 @@ import java.util.List;
 public class T5_CheckCategories extends BaseTest {
     @Test
     public void checkCategories() {
-
-
         MainPage mainPage = new MainPage();
-        List<Boolean> clothesResult = mainPage.checkChildElements(mainPage.getClothes(), Arrays.asList("MEN", "WOMEN"));
-        clothesResult.stream().forEach(s -> Assert.assertTrue(s));
 
-        List<Boolean> accessoriesResult = mainPage.checkChildElements(mainPage.getAccessories(), Arrays.asList("STATIONERY", "HOME ACCESSORIES"));
-        accessoriesResult.stream().forEach(s -> Assert.assertTrue(s));
+        boolean resultMenCategories = mainPage
+                .getMenu()
+                .hoverOverTopMenuLinks("CLOTHES")
+                .isCategoryDisplaying("MEN");
+        boolean resultWomenCategories = mainPage
+                .getMenu()
+                .isCategoryDisplaying("WOMEN");
+        boolean resultHomeAccessoriesButton = mainPage
+                .getMenu()
+                .hoverOverTopMenuLinks("ACCESSORIES")
+                .isCategoryDisplaying("STATIONERY");
+        boolean resultStationeryButton = mainPage
+                .getMenu()
+                .isCategoryDisplaying("HOME_ACCESSORIES");
+        boolean resultArtButton = mainPage
+                .getMenu()
+                .hoverOverTopMenuLinks("ART")
+                .isEmptyFieldUnderArtButton();
 
-        List<Boolean> artResult = mainPage.checkChildElements(mainPage.getArt(), new ArrayList<>());
-        artResult.stream().forEach(s -> Assert.assertTrue(s));
+        SoftAssertions sa = new SoftAssertions();
+        sa.assertThat(resultMenCategories)
+                .as(" Categories MEN of clothes button not displayed")
+                .isTrue();
+        sa.assertThat(resultWomenCategories)
+                .as(" Categories Women of clothes button not displayed")
+                .isTrue();
+        sa.assertThat(resultHomeAccessoriesButton)
+                .as(" Categories Home Accessories of Accessories button not displayed")
+                .isTrue();
+        sa.assertThat(resultStationeryButton)
+                .as(" Categories Stationery of Accessories button not displayed")
+                .isTrue();
+        sa.assertThat(resultArtButton)
+                .as("Categories under Art button not empty")
+                .isTrue();
+        sa.assertAll();
     }
 }
+

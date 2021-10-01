@@ -24,4 +24,12 @@ public class PricesDropPage extends BasePage{
         List<Product> allProducts = getAllProductsOnPage(productContainer);
         return allProducts;
     }
+    public double countExpectedPriceWithDiscount(Product product) {
+        double oldPrice = product.getOldPriceAsDouble();
+        double discount = product.getDiscountAsDouble();
+        double newPrice = oldPrice - (oldPrice * discount / 100);
+        return Double.parseDouble(String.valueOf(newPrice).substring(0, 5));
+
+    }
+
 }
