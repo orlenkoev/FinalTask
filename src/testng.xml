@@ -3,7 +3,7 @@
 <suite name="Login suite" verbose="1" parallel="classes" thread-count="2">
     <test name="Login tests">
         <classes>
-            <class name="tests.T1_CheckTextAboutMailing"/>
+            <class name="tests.AddingToCartTests"/>
         </classes>
     </test>
 </suite>

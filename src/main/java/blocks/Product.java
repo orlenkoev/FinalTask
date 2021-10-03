@@ -1,6 +1,7 @@
 package blocks;
 
 import lombok.Getter;
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -8,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Getter
+@Slf4j
 public class Product {
     private WebElement name;
     private String nameAsString;
@@ -34,13 +36,15 @@ public class Product {
             this.price = container.findElement(By.xpath(".//span[@class='price']"));
             this.priceAsString = container.findElement(By.xpath(".//span[@class='price']")).getText();
             this.priceAsDouble = Double.parseDouble(priceAsString.replace("€", ""));
-            this.oldPrice = container.findElement(By.xpath(".//span[@class='regular-price']"));
-            this.oldPriceAsString = container.findElement(By.xpath(".//span[@class='regular-price']")).getText();
-            this.oldPriceAsDouble = Double.parseDouble(oldPriceAsString.replace("€", ""));
-            this.discount = container.findElement(By.xpath(".//li[@class='product-flag discount']")).getText();
-            this.discountAsDouble = Double.parseDouble(container.findElement(By.xpath(".//li[@class='product-flag discount']")).getText().replace("-", "").substring(0, 2));
-
-
+            if (container.findElements(By.xpath(".//span[@class='regular-price']")).size() == 1) {
+                this.oldPrice = container.findElement(By.xpath(".//span[@class='regular-price']"));
+                this.oldPriceAsString = container.findElement(By.xpath(".//span[@class='regular-price']")).getText();
+                this.oldPriceAsDouble = Double.parseDouble(oldPriceAsString.replace("€", ""));
+                if (container.findElements(By.xpath(".//li[@class='product-flag discount']")).size() == 1) {
+                    this.discount = container.findElement(By.xpath(".//li[@class='product-flag discount']")).getText();
+                    this.discountAsDouble = Double.parseDouble(container.findElement(By.xpath(".//li[@class='product-flag discount']")).getText().replace("-", "").substring(0, 2));
+                }
+            }
         } else {
             this.priceAsString = container.findElement(By.xpath(".//span[@class='price']")).getText().split("\n")[0];
             this.priceAsDouble = Double.parseDouble(priceAsString.replace("€", ""));
@@ -53,7 +57,5 @@ public class Product {
             allProducts.add(new Product(container));
         }
         return allProducts;
-
     }
-
 }

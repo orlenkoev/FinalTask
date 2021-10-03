@@ -13,13 +13,11 @@ import static blocks.Product.getAllProductsOnPage;
 
 @Getter
 @Slf4j
-
-public class PricesDropPage extends BasePage{
-
+public class ResultOfSearchPage extends BasePage {
     @FindBy(xpath = "//div[@itemprop='itemListElement']")
     private List<WebElement> productContainer;
 
-    public PricesDropPage() {
+    public ResultOfSearchPage() {
         PageFactory.initElements(getDriver(), this);
     }
 
@@ -28,13 +26,4 @@ public class PricesDropPage extends BasePage{
         List<Product> allProducts = getAllProductsOnPage(productContainer);
         return allProducts;
     }
-    public double countExpectedPriceWithDiscount(Product product) {
-        log.info("Count expected price of products with discount");
-        double oldPrice = product.getOldPriceAsDouble();
-        double discount = product.getDiscountAsDouble();
-        double newPrice = oldPrice - (oldPrice * discount / 100);
-        return Double.parseDouble(String.valueOf(newPrice).substring(0, 5));
-
-    }
-
 }

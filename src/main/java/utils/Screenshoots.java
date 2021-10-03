@@ -1,13 +1,13 @@
-package utils;
-
-//import driverFactory.DriverFactory;
+//package utils;
+//
 //import io.qameta.allure.Attachment;
 //import org.openqa.selenium.OutputType;
 //import org.openqa.selenium.TakesScreenshot;
+//import pages.BasePage;
 //
 //public class Screenshoots {
 //    @Attachment("Screenshot on failure")
 //    public static byte[] makeScreenshotOnFailure() {
-//        return ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.BYTES);
+//        return ((TakesScreenshot) BasePage.getDriver()).getScreenshotAs(OutputType.BYTES);
 //    }
 //}

@@ -5,5 +5,5 @@ target/
 .idea/
 *.class
 *.iml
-allure/
+.allure/
 
