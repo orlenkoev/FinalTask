@@ -837,3 +837,37 @@
 [INFO ] 2021-10-06 18:16:51 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
 [INFO ] 2021-10-06 18:16:51 ShoppingCartPage:74 :getTotalPriceAsDouble - message:Get price of all checked products as double
 [INFO ] 2021-10-06 18:16:51 ShoppingCartPage:69 :getTotalPrice - message:Get price of  all checked products
+[INFO ] 2021-10-06 18:32:53 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 18:32:53 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 18:33:10 MainPage:57 :enterSomeProductForSearch - message:Enter some name of product for search
+[INFO ] 2021-10-06 18:33:19 ResultOfSearchPage:25 :getProductsOnPage - message:Get all products from page
+[INFO ] 2021-10-06 18:33:33 ProductDescriptionPage:31 :clickOnTheDropdownMenuWithPaperType - message:Click on the dropdown menu with paper type
+[INFO ] 2021-10-06 18:33:33 ProductDescriptionPage:44 :enterTheNeededQuantity - message:Clear quantity field and enter the needed number
+[INFO ] 2021-10-06 18:33:35 ProductDescriptionPage:52 :clickOnAddToCartButton - message:Click on Add to cart button
+[INFO ] 2021-10-06 18:33:36 ShoppingCartPage:36 :getTextFromTitleOfShoppingCart - message:Get text from title of shopping cart
+[INFO ] 2021-10-06 18:33:38 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 18:33:38 ShoppingCartPage:53 :getPaperTypeFromForm - message:Get paper type from shopping cart
+[INFO ] 2021-10-06 18:33:38 ShoppingCartPage:79 :countExpectedPriceOfAllCheckedProducts - message:Count expected price of all checked products
+[INFO ] 2021-10-06 18:33:38 ShoppingCartPage:64 :getPriceOfOneItemAsDouble - message:Get price of one item as double
+[INFO ] 2021-10-06 18:33:38 ShoppingCartPage:59 :getPriceOfOneItem - message:Get price of one item
+[INFO ] 2021-10-06 18:33:38 ShoppingCartPage:48 :getQuantityFromFormAsDouble - message:Get quantity from shopping cart as double
+[INFO ] 2021-10-06 18:33:38 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 18:33:38 ShoppingCartPage:74 :getTotalPriceAsDouble - message:Get price of all checked products as double
+[INFO ] 2021-10-06 18:33:38 ShoppingCartPage:69 :getTotalPrice - message:Get price of  all checked products
+[INFO ] 2021-10-06 18:33:46 ShoppingCartPage:79 :countExpectedPriceOfAllCheckedProducts - message:Count expected price of all checked products
+[INFO ] 2021-10-06 18:33:46 ShoppingCartPage:64 :getPriceOfOneItemAsDouble - message:Get price of one item as double
+[INFO ] 2021-10-06 18:33:46 ShoppingCartPage:59 :getPriceOfOneItem - message:Get price of one item
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:48 :getQuantityFromFormAsDouble - message:Get quantity from shopping cart as double
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:74 :getTotalPriceAsDouble - message:Get price of all checked products as double
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:69 :getTotalPrice - message:Get price of  all checked products
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:79 :countExpectedPriceOfAllCheckedProducts - message:Count expected price of all checked products
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:64 :getPriceOfOneItemAsDouble - message:Get price of one item as double
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:59 :getPriceOfOneItem - message:Get price of one item
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:48 :getQuantityFromFormAsDouble - message:Get quantity from shopping cart as double
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:74 :getTotalPriceAsDouble - message:Get price of all checked products as double
+[INFO ] 2021-10-06 18:33:47 ShoppingCartPage:69 :getTotalPrice - message:Get price of  all checked products
+[INFO ] 2021-10-06 18:41:16 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 18:41:16 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 18:41:40 MainPage:57 :enterSomeProductForSearch - message:Enter some name of product for search

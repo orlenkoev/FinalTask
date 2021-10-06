@@ -12,8 +12,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pages.BasePage;
 
-import java.util.concurrent.TimeUnit;
-
 public abstract class BaseTest {
 
     @BeforeMethod
