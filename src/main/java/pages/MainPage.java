@@ -63,7 +63,7 @@ public class MainPage extends BasePage {
     public ResultOfSearchPage pressEnterForSearch() {
         waitUntilClickable(By.xpath("//i[@class='material-icons search']"), 2);
         enterSearchButton.click();
-        getDriver().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         return new ResultOfSearchPage();
     }
 

@@ -53,7 +53,6 @@ public class ProductsAndPricesTests extends BaseTest {
             boolean isPriceDisplayed = product.getPrice().isDisplayed();
 
             SoftAssertions sa = new SoftAssertions();
-
             sa.assertThat(isNameDisplayed)
                     .as("Products names are not displayed")
                     .isTrue();

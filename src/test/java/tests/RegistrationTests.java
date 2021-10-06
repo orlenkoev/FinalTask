@@ -62,7 +62,6 @@ public class RegistrationTests extends BaseTest {
         String birthdayDate = randomDay.format(formatter);
 
         MainPage mainPage = new MainPage();
-
         LoginPage loginPage = mainPage
                 .clickSignInButton()
                 .clickCreateNewAccountButton()
