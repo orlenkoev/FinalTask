@@ -4,12 +4,9 @@ import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import pages.PricesDropPage;
-
-import static pages.BasePage.getDriver;
 
 
 @Getter
@@ -31,7 +28,9 @@ public class Footer {
         PageFactory.initElements(driver, this);
     }
 
-    public String getTextNearTheEmailField() {  return nearTheEmailField.getText(); }
+    public String getTextNearTheEmailField() {
+        return nearTheEmailField.getText();
+    }
 
     public String getTextUnderTheEmailField() {
         return underTheEmailField.getText();

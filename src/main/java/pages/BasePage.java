@@ -13,7 +13,6 @@ public abstract class BasePage {
     public static void setThreadLocalDriver(WebDriver driver) {
         THREAD_LOCAL_DRIVER.set(driver);
     }
-
     public static ThreadLocal<WebDriver> getThreadLocalDriver() {
         return THREAD_LOCAL_DRIVER;
     }

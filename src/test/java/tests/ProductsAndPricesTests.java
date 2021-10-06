@@ -9,6 +9,7 @@ import pages.PricesDropPage;
 import java.util.List;
 
 public class ProductsAndPricesTests extends BaseTest {
+
     @Test
     public void checkPriceDropDisplayingAndPromoPriceCalculatedCorrect() {
         PricesDropPage pricesDropPage = new PricesDropPage();

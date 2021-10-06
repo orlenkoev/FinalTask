@@ -10,6 +10,7 @@ import pages.ShoppingCartPage;
 import java.util.List;
 
 public class AddingToCartTests extends BaseTest {
+
     @Test
     public void checkThatSelectedProductsOptionsAreDisplayedCorrectlyWhenAddedToCart()
             throws InterruptedException {

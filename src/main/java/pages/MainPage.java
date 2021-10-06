@@ -7,7 +7,6 @@ import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -53,6 +52,7 @@ public class MainPage extends BasePage {
         this.footer = new Footer(getDriver());
         this.menu = new Menu(getDriver());
     }
+
     public MainPage enterSomeProductForSearch(String product) {
         log.info("Enter some name of product for search");
         waitUntilVisible(By.xpath("//input[@class='ui-autocomplete-input']"), 5);

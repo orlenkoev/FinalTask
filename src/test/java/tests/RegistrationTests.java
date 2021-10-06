@@ -14,6 +14,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.Random;
 
 public class RegistrationTests extends BaseTest {
+
     @Test
     public void checkThatYourCorrectNameAppearsAfterAccountCreating() {
         Faker faker = new Faker();

@@ -7,6 +7,7 @@ import pages.MainPage;
 import java.util.Locale;
 
 public class CorrectVisualTests extends BaseTest {
+
     @Test
     public void checkTextNearMailFieldAndUpperCaseLetterInSubscribeButton() {
         MainPage mainPage = new MainPage();
@@ -76,7 +77,6 @@ public class CorrectVisualTests extends BaseTest {
                 .as("Categories under Art button not empty")
                 .isTrue();
         sa.assertAll();
-
     }
 }
 
