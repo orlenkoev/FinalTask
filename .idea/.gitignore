@@ -6,4 +6,5 @@ target/
 *.class
 *.iml
 .allure/
+log4j.log
 
