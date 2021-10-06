@@ -8,6 +8,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import pages.PricesDropPage;
 
+import java.util.concurrent.TimeUnit;
+
+import static pages.BasePage.getDriver;
+
 
 @Getter
 @Slf4j
@@ -29,6 +33,7 @@ public class Footer {
     }
 
     public String getTextNearTheEmailField() {
+        getDriver().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         return nearTheEmailField.getText();
     }
 
@@ -42,6 +47,7 @@ public class Footer {
 
     public PricesDropPage clickOnPricesDropButton() {
         log.info("Click on prices drop button");
+        getDriver().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         pricesDropButton.click();
         return new PricesDropPage();
     }

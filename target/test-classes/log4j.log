@@ -944,3 +944,180 @@
 [INFO ] 2021-10-06 19:01:12 MainPage:71 :clickOnDropdownMenuWithLanguages - message:Click on dropdown menu with languages
 [INFO ] 2021-10-06 19:01:15 MainPage:71 :clickOnDropdownMenuWithLanguages - message:Click on dropdown menu with languages
 [INFO ] 2021-10-06 19:01:15 MainPage:83 :getCountOfLanguage - message:Get count of all languages
+[INFO ] 2021-10-06 19:02:07 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:02:07 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:02:19 Footer:44 :clickOnPricesDropButton - message:Click on prices drop button
+[INFO ] 2021-10-06 19:02:25 PricesDropPage:27 :getProductsOnPage - message:Get all products from page
+[INFO ] 2021-10-06 19:02:26 PricesDropPage:32 :countExpectedPriceWithDiscount - message:Count expected price of products with discount
+[INFO ] 2021-10-06 19:02:33 PricesDropPage:32 :countExpectedPriceWithDiscount - message:Count expected price of products with discount
+[INFO ] 2021-10-06 19:09:16 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:09:16 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:09:35 SignInPage:23 :clickCreateNewAccountButton - message:Click on Create new account Button
+[INFO ] 2021-10-06 19:09:37 LoginPage:79 :chooseSocialTitle - message:Choose social title
+[INFO ] 2021-10-06 19:09:37 LoginPage:49 :enterFirstName - message:Enter first name
+[INFO ] 2021-10-06 19:09:38 LoginPage:55 :enterLastName - message:Enter last name
+[INFO ] 2021-10-06 19:09:39 LoginPage:61 :enterUserEmail - message:Enter e-mail
+[INFO ] 2021-10-06 19:09:39 LoginPage:67 :enterPassword - message:Enter password
+[INFO ] 2021-10-06 19:09:39 LoginPage:73 :enterBirthdayDate - message:Enter birthday date
+[INFO ] 2021-10-06 19:09:40 LoginPage:85 :clickCustomerPrivacyButton - message:Click customer privacy button
+[INFO ] 2021-10-06 19:09:40 LoginPage:91 :checkAgreeToThePrivacyPolicyAndTerms - message:Check agree to the privacy policy and terms
+[INFO ] 2021-10-06 19:09:40 LoginPage:97 :clickSaveButton - message:Click Save button
+[INFO ] 2021-10-06 19:10:49 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:10:49 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:14:41 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:14:41 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:46:27 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:46:27 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:46:27 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:46:27 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:47:02 MainPage:57 :enterSomeProductForSearch - message:Enter some name of product for search
+[INFO ] 2021-10-06 19:47:05 Menu:50 :isCategoryDisplaying - message:Check visibility of categories
+[INFO ] 2021-10-06 19:47:05 Menu:50 :isCategoryDisplaying - message:Check visibility of categories
+[INFO ] 2021-10-06 19:47:06 Menu:50 :isCategoryDisplaying - message:Check visibility of categories
+[INFO ] 2021-10-06 19:47:06 ResultOfSearchPage:25 :getProductsOnPage - message:Get all products from page
+[INFO ] 2021-10-06 19:47:06 Menu:50 :isCategoryDisplaying - message:Check visibility of categories
+[INFO ] 2021-10-06 19:47:15 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:47:15 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:47:17 ProductDescriptionPage:29 :clickOnTheDropdownMenuWithPaperType - message:Click on the dropdown menu with paper type
+[INFO ] 2021-10-06 19:47:18 ProductDescriptionPage:42 :enterTheNeededQuantity - message:Clear quantity field and enter the needed number
+[INFO ] 2021-10-06 19:47:20 ProductDescriptionPage:50 :clickOnAddToCartButton - message:Click on Add to cart button
+[INFO ] 2021-10-06 19:47:21 ShoppingCartPage:36 :getTextFromTitleOfShoppingCart - message:Get text from title of shopping cart
+[INFO ] 2021-10-06 19:47:22 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 19:47:22 ShoppingCartPage:53 :getPaperTypeFromForm - message:Get paper type from shopping cart
+[INFO ] 2021-10-06 19:47:23 ShoppingCartPage:79 :countExpectedPriceOfAllCheckedProducts - message:Count expected price of all checked products
+[INFO ] 2021-10-06 19:47:23 ShoppingCartPage:64 :getPriceOfOneItemAsDouble - message:Get price of one item as double
+[INFO ] 2021-10-06 19:47:23 ShoppingCartPage:59 :getPriceOfOneItem - message:Get price of one item
+[INFO ] 2021-10-06 19:47:23 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:47:23 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:47:23 ShoppingCartPage:48 :getQuantityFromFormAsDouble - message:Get quantity from shopping cart as double
+[INFO ] 2021-10-06 19:47:23 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 19:47:23 ShoppingCartPage:74 :getTotalPriceAsDouble - message:Get price of all checked products as double
+[INFO ] 2021-10-06 19:47:23 ShoppingCartPage:69 :getTotalPrice - message:Get price of  all checked products
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:79 :countExpectedPriceOfAllCheckedProducts - message:Count expected price of all checked products
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:64 :getPriceOfOneItemAsDouble - message:Get price of one item as double
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:59 :getPriceOfOneItem - message:Get price of one item
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:48 :getQuantityFromFormAsDouble - message:Get quantity from shopping cart as double
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:74 :getTotalPriceAsDouble - message:Get price of all checked products as double
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:69 :getTotalPrice - message:Get price of  all checked products
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:79 :countExpectedPriceOfAllCheckedProducts - message:Count expected price of all checked products
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:64 :getPriceOfOneItemAsDouble - message:Get price of one item as double
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:59 :getPriceOfOneItem - message:Get price of one item
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:48 :getQuantityFromFormAsDouble - message:Get quantity from shopping cart as double
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:74 :getTotalPriceAsDouble - message:Get price of all checked products as double
+[INFO ] 2021-10-06 19:47:27 ShoppingCartPage:69 :getTotalPrice - message:Get price of  all checked products
+[INFO ] 2021-10-06 19:47:29 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:47:29 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:47:34 MainPage:92 :getProductsOnPage - message:Get all products from page
+[INFO ] 2021-10-06 19:47:41 SignInPage:23 :clickCreateNewAccountButton - message:Click on Create new account Button
+[INFO ] 2021-10-06 19:47:42 LoginPage:79 :chooseSocialTitle - message:Choose social title
+[INFO ] 2021-10-06 19:47:43 LoginPage:49 :enterFirstName - message:Enter first name
+[INFO ] 2021-10-06 19:47:43 LoginPage:55 :enterLastName - message:Enter last name
+[INFO ] 2021-10-06 19:47:43 LoginPage:61 :enterUserEmail - message:Enter e-mail
+[INFO ] 2021-10-06 19:47:44 LoginPage:67 :enterPassword - message:Enter password
+[INFO ] 2021-10-06 19:47:44 LoginPage:73 :enterBirthdayDate - message:Enter birthday date
+[INFO ] 2021-10-06 19:47:44 LoginPage:85 :clickCustomerPrivacyButton - message:Click customer privacy button
+[INFO ] 2021-10-06 19:47:45 LoginPage:91 :checkAgreeToThePrivacyPolicyAndTerms - message:Check agree to the privacy policy and terms
+[INFO ] 2021-10-06 19:47:45 LoginPage:103 :clickSaveButtonWithIncorrectData - message:Click Save button when data isn't correct
+[INFO ] 2021-10-06 19:47:45 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:47:45 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:47:46 LoginPage:109 :getColorOfFirstNameFieldBorder - message:Get color of first name fields border
+[INFO ] 2021-10-06 19:47:47 LoginPage:116 :getTextFromInvalidForm - message:Get text from invalid form if entered data isn't correct
+[INFO ] 2021-10-06 19:47:50 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:47:50 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:48:05 SignInPage:23 :clickCreateNewAccountButton - message:Click on Create new account Button
+[INFO ] 2021-10-06 19:48:05 Footer:44 :clickOnPricesDropButton - message:Click on prices drop button
+[INFO ] 2021-10-06 19:48:06 LoginPage:79 :chooseSocialTitle - message:Choose social title
+[INFO ] 2021-10-06 19:48:06 LoginPage:49 :enterFirstName - message:Enter first name
+[INFO ] 2021-10-06 19:48:07 LoginPage:55 :enterLastName - message:Enter last name
+[INFO ] 2021-10-06 19:48:07 PricesDropPage:27 :getProductsOnPage - message:Get all products from page
+[INFO ] 2021-10-06 19:48:07 LoginPage:61 :enterUserEmail - message:Enter e-mail
+[INFO ] 2021-10-06 19:48:07 LoginPage:67 :enterPassword - message:Enter password
+[INFO ] 2021-10-06 19:48:08 LoginPage:73 :enterBirthdayDate - message:Enter birthday date
+[INFO ] 2021-10-06 19:48:08 LoginPage:85 :clickCustomerPrivacyButton - message:Click customer privacy button
+[INFO ] 2021-10-06 19:48:08 LoginPage:91 :checkAgreeToThePrivacyPolicyAndTerms - message:Check agree to the privacy policy and terms
+[INFO ] 2021-10-06 19:48:08 LoginPage:97 :clickSaveButton - message:Click Save button
+[INFO ] 2021-10-06 19:48:09 PricesDropPage:32 :countExpectedPriceWithDiscount - message:Count expected price of products with discount
+[INFO ] 2021-10-06 19:48:09 PricesDropPage:32 :countExpectedPriceWithDiscount - message:Count expected price of products with discount
+[INFO ] 2021-10-06 19:48:10 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:48:10 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:48:18 MainPage:71 :clickOnDropdownMenuWithLanguages - message:Click on dropdown menu with languages
+[INFO ] 2021-10-06 19:48:25 MainPage:71 :clickOnDropdownMenuWithLanguages - message:Click on dropdown menu with languages
+[INFO ] 2021-10-06 19:48:25 MainPage:83 :getCountOfLanguage - message:Get count of all languages
+[INFO ] 2021-10-06 19:50:33 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:50:33 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:50:33 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:50:33 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:50:53 MainPage:57 :enterSomeProductForSearch - message:Enter some name of product for search
+[INFO ] 2021-10-06 19:50:56 ResultOfSearchPage:25 :getProductsOnPage - message:Get all products from page
+[INFO ] 2021-10-06 19:50:58 Menu:50 :isCategoryDisplaying - message:Check visibility of categories
+[INFO ] 2021-10-06 19:50:58 Menu:50 :isCategoryDisplaying - message:Check visibility of categories
+[INFO ] 2021-10-06 19:50:59 Menu:50 :isCategoryDisplaying - message:Check visibility of categories
+[INFO ] 2021-10-06 19:50:59 Menu:50 :isCategoryDisplaying - message:Check visibility of categories
+[INFO ] 2021-10-06 19:51:09 ProductDescriptionPage:29 :clickOnTheDropdownMenuWithPaperType - message:Click on the dropdown menu with paper type
+[INFO ] 2021-10-06 19:51:11 ProductDescriptionPage:42 :enterTheNeededQuantity - message:Clear quantity field and enter the needed number
+[INFO ] 2021-10-06 19:51:12 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:51:12 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:51:13 ProductDescriptionPage:50 :clickOnAddToCartButton - message:Click on Add to cart button
+[INFO ] 2021-10-06 19:51:14 ShoppingCartPage:36 :getTextFromTitleOfShoppingCart - message:Get text from title of shopping cart
+[INFO ] 2021-10-06 19:51:15 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 19:51:15 ShoppingCartPage:53 :getPaperTypeFromForm - message:Get paper type from shopping cart
+[INFO ] 2021-10-06 19:51:15 ShoppingCartPage:79 :countExpectedPriceOfAllCheckedProducts - message:Count expected price of all checked products
+[INFO ] 2021-10-06 19:51:15 ShoppingCartPage:64 :getPriceOfOneItemAsDouble - message:Get price of one item as double
+[INFO ] 2021-10-06 19:51:15 ShoppingCartPage:59 :getPriceOfOneItem - message:Get price of one item
+[INFO ] 2021-10-06 19:51:15 ShoppingCartPage:48 :getQuantityFromFormAsDouble - message:Get quantity from shopping cart as double
+[INFO ] 2021-10-06 19:51:15 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 19:51:15 ShoppingCartPage:74 :getTotalPriceAsDouble - message:Get price of all checked products as double
+[INFO ] 2021-10-06 19:51:15 ShoppingCartPage:69 :getTotalPrice - message:Get price of  all checked products
+[INFO ] 2021-10-06 19:51:19 ShoppingCartPage:79 :countExpectedPriceOfAllCheckedProducts - message:Count expected price of all checked products
+[INFO ] 2021-10-06 19:51:19 ShoppingCartPage:64 :getPriceOfOneItemAsDouble - message:Get price of one item as double
+[INFO ] 2021-10-06 19:51:19 ShoppingCartPage:59 :getPriceOfOneItem - message:Get price of one item
+[INFO ] 2021-10-06 19:51:19 ShoppingCartPage:48 :getQuantityFromFormAsDouble - message:Get quantity from shopping cart as double
+[INFO ] 2021-10-06 19:51:19 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 19:51:19 ShoppingCartPage:74 :getTotalPriceAsDouble - message:Get price of all checked products as double
+[INFO ] 2021-10-06 19:51:19 ShoppingCartPage:69 :getTotalPrice - message:Get price of  all checked products
+[INFO ] 2021-10-06 19:51:19 ShoppingCartPage:79 :countExpectedPriceOfAllCheckedProducts - message:Count expected price of all checked products
+[INFO ] 2021-10-06 19:51:19 ShoppingCartPage:64 :getPriceOfOneItemAsDouble - message:Get price of one item as double
+[INFO ] 2021-10-06 19:51:19 ShoppingCartPage:59 :getPriceOfOneItem - message:Get price of one item
+[INFO ] 2021-10-06 19:51:20 ShoppingCartPage:48 :getQuantityFromFormAsDouble - message:Get quantity from shopping cart as double
+[INFO ] 2021-10-06 19:51:20 ShoppingCartPage:42 :getQuantityFromForm - message:Get quantity from shopping cart
+[INFO ] 2021-10-06 19:51:20 ShoppingCartPage:74 :getTotalPriceAsDouble - message:Get price of all checked products as double
+[INFO ] 2021-10-06 19:51:20 ShoppingCartPage:69 :getTotalPrice - message:Get price of  all checked products
+[INFO ] 2021-10-06 19:51:21 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:51:21 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:51:30 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:51:30 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:51:31 MainPage:92 :getProductsOnPage - message:Get all products from page
+[INFO ] 2021-10-06 19:51:42 SignInPage:23 :clickCreateNewAccountButton - message:Click on Create new account Button
+[INFO ] 2021-10-06 19:51:43 LoginPage:79 :chooseSocialTitle - message:Choose social title
+[INFO ] 2021-10-06 19:51:43 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:51:43 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:51:44 LoginPage:49 :enterFirstName - message:Enter first name
+[INFO ] 2021-10-06 19:51:44 LoginPage:55 :enterLastName - message:Enter last name
+[INFO ] 2021-10-06 19:51:44 LoginPage:61 :enterUserEmail - message:Enter e-mail
+[INFO ] 2021-10-06 19:51:44 LoginPage:67 :enterPassword - message:Enter password
+[INFO ] 2021-10-06 19:51:45 LoginPage:73 :enterBirthdayDate - message:Enter birthday date
+[INFO ] 2021-10-06 19:51:46 LoginPage:85 :clickCustomerPrivacyButton - message:Click customer privacy button
+[INFO ] 2021-10-06 19:51:46 LoginPage:91 :checkAgreeToThePrivacyPolicyAndTerms - message:Check agree to the privacy policy and terms
+[INFO ] 2021-10-06 19:51:46 LoginPage:103 :clickSaveButtonWithIncorrectData - message:Click Save button when data isn't correct
+[INFO ] 2021-10-06 19:51:47 LoginPage:109 :getColorOfFirstNameFieldBorder - message:Get color of first name fields border
+[INFO ] 2021-10-06 19:51:47 LoginPage:116 :getTextFromInvalidForm - message:Get text from invalid form if entered data isn't correct
+[INFO ] 2021-10-06 19:51:50 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:51:50 Footer:49 :clickOnPricesDropButton - message:Click on prices drop button
+[INFO ] 2021-10-06 19:51:50 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:51:51 WebDriverManager:958 :resolveDriverVersion - message:Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+[INFO ] 2021-10-06 19:51:51 WebDriverManager:1013 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe
+[INFO ] 2021-10-06 19:52:12 MainPage:71 :clickOnDropdownMenuWithLanguages - message:Click on dropdown menu with languages
+[INFO ] 2021-10-06 19:52:13 SignInPage:23 :clickCreateNewAccountButton - message:Click on Create new account Button
+[INFO ] 2021-10-06 19:52:14 LoginPage:79 :chooseSocialTitle - message:Choose social title
+[INFO ] 2021-10-06 19:52:14 LoginPage:49 :enterFirstName - message:Enter first name
+[INFO ] 2021-10-06 19:52:14 LoginPage:55 :enterLastName - message:Enter last name
+[INFO ] 2021-10-06 19:52:15 LoginPage:61 :enterUserEmail - message:Enter e-mail
+[INFO ] 2021-10-06 19:52:15 LoginPage:67 :enterPassword - message:Enter password
+[INFO ] 2021-10-06 19:52:15 LoginPage:73 :enterBirthdayDate - message:Enter birthday date
+[INFO ] 2021-10-06 19:52:16 LoginPage:85 :clickCustomerPrivacyButton - message:Click customer privacy button
+[INFO ] 2021-10-06 19:52:16 LoginPage:91 :checkAgreeToThePrivacyPolicyAndTerms - message:Check agree to the privacy policy and terms
+[INFO ] 2021-10-06 19:52:17 LoginPage:97 :clickSaveButton - message:Click Save button
+[INFO ] 2021-10-06 19:52:17 MainPage:71 :clickOnDropdownMenuWithLanguages - message:Click on dropdown menu with languages
+[INFO ] 2021-10-06 19:52:17 MainPage:83 :getCountOfLanguage - message:Get count of all languages
