@@ -39,7 +39,6 @@ public abstract class BaseTest {
             }
         }
         driver.get("https://demo.prestashop.com/");
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         BasePage.setThreadLocalDriver(driver);
 
