@@ -1,9 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Login suite" verbose="1" parallel="classes" thread-count="2">
-    <test name="Login tests">
+    <test name="All tests">
         <classes>
             <class name="tests.AddingToCartTests"/>
+            <class name="tests.CorrectVisualTests"/>
+            <class name="tests.ProductsAndPricesTests"/>
+            <class name="tests.RegistrationTests"/>
+            <class name="tests.LanguagesTests"/>
         </classes>
     </test>
 </suite>

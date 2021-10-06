@@ -3,6 +3,7 @@ package pages;
 import blocks.Product;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -33,11 +34,13 @@ public class ShoppingCartPage extends BasePage {
 
     public String getTextFromTitleOfShoppingCart() {
         log.info("Get text from title of shopping cart");
+        waitUntilVisible(By.id("myModalLabel"), 3);
         return titleOfShoppingCart.getText().replace("\uE876", "");
     }
 
     public String getQuantityFromForm() {
         log.info("Get quantity from shopping cart");
+        waitUntilVisible(By.xpath("//span[@class='product-quantity']/strong"), 3);
         return quantity.getText();
     }
 
@@ -48,6 +51,7 @@ public class ShoppingCartPage extends BasePage {
 
     public String getPaperTypeFromForm() {
         log.info("Get paper type from shopping cart");
+        waitUntilVisible(By.xpath("//span[@class='paper type']/strong"), 3);
         return paperType.getText();
     }
 

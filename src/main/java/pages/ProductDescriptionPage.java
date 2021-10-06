@@ -8,6 +8,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.concurrent.TimeUnit;
+
 @Getter
 @Slf4j
 
@@ -48,6 +50,7 @@ public class ProductDescriptionPage extends BasePage {
 
     public ShoppingCartPage clickOnAddToCartButton() {
         log.info("Click on Add to cart button");
+        waitUntilClickable(By.xpath("//button[@class='btn btn-primary add-to-cart']"), 3);
         addToCartButton.click();
         return new ShoppingCartPage();
     }

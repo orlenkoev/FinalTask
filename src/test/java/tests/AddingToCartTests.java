@@ -15,7 +15,6 @@ public class AddingToCartTests extends BaseTest {
             throws InterruptedException {
         MainPage mainPage = new MainPage();
         List<Product> nameOfProducts = mainPage
-                .getMenu()
                 .enterSomeProductForSearch("Bear")
                 .pressEnterForSearch()
                 .getProductsOnPage();
@@ -36,7 +35,6 @@ public class AddingToCartTests extends BaseTest {
                 .enterTheNeededQuantity(quantityYouNeed)
                 .clickOnAddToCartButton();
 
-        Thread.sleep(3000);
         String actualTitleOfShoppingCart = shoppingCartPage
                 .getTextFromTitleOfShoppingCart();
 

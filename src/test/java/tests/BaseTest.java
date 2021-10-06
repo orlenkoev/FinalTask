@@ -46,6 +46,7 @@ public abstract class BaseTest {
         try {
             new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(By.id("loadingMessage")));
         } catch (Exception a) {
+            a.printStackTrace();
         }
         driver.switchTo().frame("framelive");
     }

@@ -30,12 +30,6 @@ public class Menu {
     @FindBy(xpath = "//div[contains(@class,'popover')]")
     private WebElement fieldUnderMenuElements;
 
-    @FindBy(xpath = "//input[@class='ui-autocomplete-input']")
-    private WebElement searchField;
-
-    @FindBy(xpath = "//i[@class='material-icons search']")
-    private WebElement enterSearchButton;
-
 
     public Menu(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -54,6 +48,7 @@ public class Menu {
                 categoryId = "9";
                 break;
         }
+        getDriver().manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         String baseXpath = "//li[@id='category-" + categoryId + "']";
         Actions actions = new Actions(getDriver());
         actions.moveToElement(getDriver().findElement(By.xpath(baseXpath))).build().perform();
@@ -86,16 +81,6 @@ public class Menu {
         return fieldUnderMenuElements.getText().isEmpty();
     }
 
-    public Menu enterSomeProductForSearch(String product) {
-        log.info("Enter some name of product for search");
-        searchField.sendKeys(product);
-        return this;
-    }
-
-    public ResultOfSearchPage pressEnterForSearch() {
-        enterSearchButton.click();
-        return new ResultOfSearchPage();
-    }
 }
 
 

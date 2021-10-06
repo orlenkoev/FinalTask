@@ -39,6 +39,7 @@ public class ProductsAndPricesTests extends BaseTest {
             sa.assertAll();
         }
     }
+
     @Test
     public void checkPopularProductsDisplayedCorrect() {
         MainPage mainPage = new MainPage();
