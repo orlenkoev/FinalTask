@@ -14,13 +14,13 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 
 public class ProductDescriptionPage extends BasePage {
-    @FindBy(xpath = "//select[@id='group_4']")
+    @FindBy(id = "group_4")
     private WebElement dropdownMenuWithPaperType;
 
     @FindBy(xpath = "//button[@class='btn btn-primary add-to-cart']")
     private WebElement addToCartButton;
 
-    @FindBy(xpath = "//input[@id='quantity_wanted']")
+    @FindBy(id = "quantity_wanted")
     private WebElement quantityField;
 
     public ProductDescriptionPage() {
